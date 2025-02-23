@@ -1,16 +1,17 @@
 import { Button } from '@chakra-ui/react'
 import { Link } from '@saas-ui/react'
-import { NextSeoProps } from 'next-seo'
+// import { NextSeo, NextSeoProps } from 'next-seo'
+
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
-  seo: {
-    title: 'Supply Chain in Appearals',
-    description: '',
-  } as NextSeoProps,
+  // seo: {
+  //   title: 'Supply Chain in Appearals',
+  //   description: '',
+  // } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
   header: {

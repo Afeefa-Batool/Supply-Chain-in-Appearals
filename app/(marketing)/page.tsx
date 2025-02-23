@@ -1,4 +1,4 @@
-'use client'
+
 
 import {
   Box,
@@ -59,7 +59,7 @@ import faq from '#data/faq'
 import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 
-export const meta: Metadata = {
+export const metadata: Metadata = {
   title: 'Saas UI Landingspage',
   description: 'Free SaaS landingspage starter kit',
 }
@@ -94,14 +94,14 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-               Smart Supply Chain Management 
+                Smart Supply Chain Management
                 <Br /> System for the Textile Industry
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-        
-        This project aims to develop an AI-powered supply chain management system tailored for the textile industry. It will optimize inventory management, order tracking, supplier coordination, and demand forecasting using real-time data analytics. 
+
+                This project aims to develop an AI-powered supply chain management system tailored for the textile industry. It will optimize inventory management, order tracking, supplier coordination, and demand forecasting using real-time data analytics.
               </FallInPlace>
             }
           >
@@ -109,10 +109,10 @@ const HeroSection: React.FC = () => {
               {/* <HStack pt="4" pb="12" spacing="8">
                 <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
               </HStack> */}
-
+ 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="https://keen-syrniki-321477.netlify.app">
-    Dashboard
+                  Dashboard
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -210,7 +210,7 @@ const HighlightsSection = () => {
   const { value, onCopy, hasCopied } = useClipboard('yarn add @saas-ui/react')
 
   return (
-<></>
+    <></>
   )
 }
 
@@ -233,13 +233,13 @@ const TestimonialsSection = () => {
   }, [])
 
   return (
-  <></>
+    <></>
   )
 }
 
 const PricingSection = () => {
   return (
-<></>
+    <></>
   )
 }
 
